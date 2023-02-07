@@ -1,6 +1,8 @@
 package org.example;
 
 /**
+ * Class providing a method to compute the factorial of an integer number
+ *
  * @author Alvaro Bermudez Gamez
  */
 public class Factorial {
