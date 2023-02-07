@@ -15,4 +15,8 @@ public class Factorial {
         }
         return result;
     }
+
+    void g(){
+        //asasasas
+    }
 }
