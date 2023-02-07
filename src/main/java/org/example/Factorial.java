@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * @author Alvaro Bermudez Gamez
+ */
 public class Factorial {
     public int compute(int number) {
         int result;
