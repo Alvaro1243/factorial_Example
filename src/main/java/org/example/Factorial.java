@@ -4,6 +4,9 @@ package org.example;
  * Class providing a method to compute the factorial of an integer number
  */
 public class Factorial {
+    void h(){
+        //asasasa
+    }
     public int compute(int number) {
         int result;
         if(number<0){
