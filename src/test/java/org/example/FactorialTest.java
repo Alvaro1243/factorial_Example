@@ -13,6 +13,8 @@ import static org.junit.jupiter.api.Assertions.*;
  3. factorial 2 -> 2
  4. factorial 3 -> 6
  5. factorial 5 -> 120
+ 6. factorial of a negative value -> ??
+ 7. factorial of a bit number -> ??
  */
 class FactorialTest {
     Factorial factorial;
@@ -64,6 +66,11 @@ class FactorialTest {
         int expectedValue = 120;
 
         assertEquals(expectedValue,obtainedValue);
+    }
+
+    @Test
+    void factorialOfMinusOneIs(){
+        assertThrows(NegativeValueException.class, () -> factorial.compute(-1));
     }
 
 }
