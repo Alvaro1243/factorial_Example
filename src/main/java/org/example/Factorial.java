@@ -6,9 +6,6 @@ package org.example;
  * @author Alvaro Bermudez Gamez
  */
 public class Factorial {
-    void h(){
-        //asasasa
-    }
     public int compute(int number) {
         int result;
         if(number<0){
@@ -20,7 +17,5 @@ public class Factorial {
         }
         return result;
     }
-    void f(){
-        //aasasa
-    }
+
 }
